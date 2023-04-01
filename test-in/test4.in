@@ -1,0 +1,27 @@
+p max 17 10
+n s s
+n t t
+a s a 20
+a s e 10
+a s g 10
+a s j 10
+a a b 20
+a a h 10
+a b t 20
+a c d 30
+a d i 10
+a e f 10
+a e k 5
+a f t 10
+a g k 10
+a g m 5
+a h j 5
+a h n 8
+a i f 5
+a i m 5
+a j q 10
+a k t 10
+a m p 10
+a n c 10
+a p t 10
+a q b 10
