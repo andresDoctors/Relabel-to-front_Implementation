@@ -5,11 +5,10 @@ def run(cmd):
 
     if(os.name == 'nt'):
         completed = subprocess.run(["powershell", "-Command", cmd], capture_output=True)
-        return completed
-    
     else:
-        completed = subprocess.run([cmd], capture_output=True)
-        return completed
+        completed = subprocess.run(["bash", "-c", cmd], capture_output=True)
+
+    return completed
 
 if __name__ == '__main__':
 
