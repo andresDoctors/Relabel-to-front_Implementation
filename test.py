@@ -12,7 +12,7 @@ def run(cmd):
 
 if __name__ == '__main__':
 
-    for i in range(1, 4 + 1):
+    for i in range(1, 5 + 1):
         cmd = f'python ./source/main.py ./test-in/test{i}.in > ./test-out/test{i}.out'
         print(f'cmd:"{cmd}"')
         command_info = run(cmd)
