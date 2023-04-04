@@ -23,14 +23,14 @@ def give_output(command_info):
 
 def execute():
 
-    if(len(argv) == 2 and argv[1] == 'test'):
+    if(len(argv) == 1):
         for filename in os.listdir('./in'):
 
             cmd = f'python ./source/main.py ./in/{filename} > ./out/{filename}.out'
             command_info = run(cmd)
             give_output(command_info)
 
-    elif(len(argv) == 1):
+    elif(len(argv) == 2 and argv[1] == 'test'):
         for i in range(1, 5 + 1):
 
             cmd = f'python ./source/main.py ./test-in/test{i}.in > ./test-out/test{i}.out'

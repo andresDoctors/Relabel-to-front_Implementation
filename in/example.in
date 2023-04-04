@@ -1,0 +1,12 @@
+c This line is a comment.
+p max 6 8
+n s s
+n t t
+a  s  a  5
+a  s  b  2
+a  a  b  2
+a  a  c  3
+a  b  d  4
+a  c  d  1
+a  c  t  2
+a  d  t  5
