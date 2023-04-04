@@ -77,3 +77,11 @@ The output has pretty much the same format, we just add:
   ```
 
 ![alt text](https://raw.githubusercontent.com/andresDoctors/Relabel-to-front_Implementation/main/readme-media/ExampleFlowNework2.png)
+
+## How to use
+
+Just write an input file in the `.\in` folder with the format decribed above and run
+```console
+python .\excecute.py
+```
+You can find the response in `.\out`
